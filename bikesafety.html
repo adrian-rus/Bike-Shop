@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link  rel="stylesheet" type="text/css" href="css/safety.css">
+
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+
+
+    <title>Welcome to our Bike Shop!</title>
+</head>
+<body>
+<!--main container-->
+    <div class="container">
+        <!--navigation bar-->
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" class="logo" alt="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li class="dropdown"><a href="store.html">Online Store</a>
+                    <div class="dropdown-content">
+                        <a href="store.html#bikes">Bikes</a>
+                        <a href="store.html">Clothing</a>
+                        <a href="store.html">Accessories</a>
+                    </div>
+                </li>
+                <li><a href="services.html">Services</a></li>
+                 <li><a href="bikesafety.html" class="dropbtn">Bike Safety</a> </li>
+                <li><a href="about.html">About Us</a></li>
+                <li id="log"><a href="#">Log in</a> </li>
+            </ul>
+            <div id="login">
+                <form name="loginForm">
+                    <input type="email" name="email" placeholder="Email:" required>
+                    <input type="password" name="password" placeholder="Password:" required>
+                    <button id="loginbtn">Log in</button>
+                </form>
+            </div>
+        </nav>
+
+       <div class="safety">
+				
+            <h1>Bike Safety</h1>
+
+           <p>Here at The Bike Shop we know <strong>Safety</strong> is the most important thing to all our clients.</p>
+           <p>We stock all the safety accessories you need concerning your well being whilst on the roads on your bicycle.</br>
+			Every year there are several cycling fatalities on Irish roads and countless collisions involving cyclists.
+           </p>
+           <p>These can all be prevented by using our top tips:</p>
+			
+			<ul>
+				<li>Always wear a helmet.</li>
+				<li>Never cycle in the dark without adequate lighting – white for front, red for rear.</li>
+				<li>Always wear luminous clothing such as hi-vis vests, fluorescent armbands and reflective belts.</li>
+				<li>Always look behind and give the proper signal before moving off, changing lanes or making a turn .</li>
+				<li>Follow the rules of the road, never run traffic lights or weave unpredictably in and out of traffic.</li>
+				<li>aintain your bike properly – in particular, your brakes should work properly and your tyres should be inflated to the right pressure and be in good condition.</li>
+				<li>Respect other road users – don’t get into shouting matches with motorists; stop at pedestrian crossings; don’t cycle on the footpath.</li>
+				<li>Watch your speed, especially when cycling on busy streets and going downhill.</li>
+				<li>Steer well clear of left-turning trucks: let them turn before you move ahead.</li>
+			</ul>
+			<br>
+		</div>
+		
+        <div class ="h2">
+			<h1>Check out our safety accessories in our store</h1>
+        </div>
+		<div class ="safety2">
+	
+			<div class = "gear">
+			<h2>Helmets</h2>
+			 <a href="store.html"> <img src="images/helmetw.jpg "alt="helmet"></a>
+			</div>
+		
+			<div class = "gear">
+			<h2>Lights</h2>
+			<a href="store.html"> <img src="images/light.jpg"alt="light"></a>
+			</div>
+		
+			<div class="gear">
+			<h2>Hi-Visibility</h2>
+			<a href="store.html"> <img src="images/hivis.jpg"alt="hivis"></a>
+			</div>
+			
+		</div>
+
+	<div class="cycle">
+			
+		<h1>Dublin Cycle Paths</h1>
+		
+			<div>
+			<p>We have put together comprehensive maps of local areas in the Dublin and Greater Dublin region, please use the drop down menu to download the area you wish to use.</p>
+			</div>
+	</div>		
+	
+        <div class="dropsafe safety">
+            <h3>Click here to download a map:</h3>
+            <button class="dropsf">Dublin Cycle Paths</button>
+            <div class="dropdown-map">
+                <a href="images/CC.pdf" target="_blank"> City Centre </a>
+                <a href="images/DN.pdf" target="_blank">North Dublin</a>
+                <a href="images/DS.pdf" target="_blank">South Dublin</a>
+                <a href="images/DW.pdf" target="_blank">West Dublin</a>
+            </div>
+        </div>
+			
+			
+		<div class="safety">
+		<img src="images/path.jpg" class="path" alt="path">
+		</div>
+
+		
+<!--footer-->
+        <footer>
+            <div>
+                <ul>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="bikesafety.html">Bike Safety</a> </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="store.html">Online store</a></li>
+                    <li><a href="store.html">Bikes</a></li>
+                    <li><a href="store.html">Clothing</a> </li>
+                    <li><a href="store.html">Accessories</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <form name="newsletterForm">
+                    <label>Sign up for our newsletter:</label>
+                    <input type="email" placeholder="Enter your Email address!" required>
+                    <button class="button" id="signup">Sign up!</button>
+                </form>
+            </div>
+
+            <div>
+                <p><strong>IFSC Square<br>Mayor Street Lower<br>Dublin 1<br>01 234 5678</strong></p>
+                <a href="http://www.facebook.com"><img src="images/facebook.png" class="social" alt="Facebook"></a>
+                <a href="http://www.twitter.com"><img src="images/twitter.png" class="social" alt="Twitter"></a>
+                <a href="http://www.linkedin.com"><img src="images/linkedin.png" class="social" alt="LinkedIn"></a>
+            </div>
+
+        </footer>
+        <!--chat div -->
+        <div id="chatwindow">
+            <a href="skype:the_bike_peddlres?chat"><p>Chat now!</p></a>
+        </div>
+    </div>
+
+</body>
+</html>

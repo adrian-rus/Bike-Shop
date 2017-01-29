@@ -1,0 +1,114 @@
+/* Services.css - Brian McDonnell*/
+
+.title{
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.description{
+    padding: 10px 40px;
+    font-size: 14px;
+    text-align: left;
+    max-width: 75%;
+
+}
+.servicing{
+    display: inline;
+    float: left;
+	width: 45%;
+    text-align: left;
+    padding: 20px 40px;
+    line-height: 20px;
+}
+
+#wrapper {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+    padding: 10px;
+    background-color: #37aa22;
+    color: white;
+    margin: 0;
+	text-align:center;
+}
+
+#wrapper td {
+   vertical-align: middle;
+   text-align: center;
+}
+
+
+.ui-datepicker {
+    background: #fff;
+    font-size:11px;
+    font-family: 'Roboto','Arial Narrow','Modern No. 20', 'Roboto', sans-serif;
+    padding:10px;
+    border:1px solid #ccc;
+}
+
+.ui-datepicker table {
+    width:278px;
+}
+
+.ui-datepicker-calendar tbody td:hover{
+	background-color:grey;
+}
+
+.ui-datepicker-calendar tbody td a:hover{
+	color:white;
+}
+
+.ui-datepicker table td {
+    text-align:center;
+}
+
+.ui-datepicker a {
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.ui-datepicker-prev {
+    float:left;
+    color:white;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.ui-datepicker-prev:hover{
+    background-color: grey;
+}
+
+.ui-datepicker-next {
+    float:right;
+    color:white;
+    padding-left:5px;
+    padding-right:5px;
+}
+.ui-datepicker-next:hover{
+    background-color: grey;
+}
+
+.ui-datepicker-title {
+    text-align:center;
+    font-weight:bold;
+    background-color:#37aa22;
+    color:white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones:*/
+.servicing{
+        width: 100%;
+}
+    input, textarea{
+    max-width: 250px;
+}
+}

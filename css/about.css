@@ -1,0 +1,59 @@
+/*css for about page - Tatiana Finamor*/
+.aboutpanel {
+    display: inline;
+    float: left;
+    max-width: 370px;
+    text-align: left;
+    padding: 20px 60px 20px 40px;
+    line-height: 20px;
+}
+
+.aboutpanel p{
+    text-align: left;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.aboutpanel form{
+    margin-top: 60px;
+    line-height: 25px;
+}
+
+.separator {
+    display: block;
+    clear: both;
+}
+
+.shop {
+    margin-top: 60px;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+#map{
+    padding-top: 20px;
+    width:400px;
+    height: 400px;
+    float:left;
+}
+
+@media screen and (max-width:768px) {
+    .shop {
+        margin-top: 60px;
+        max-height: 280px;
+        max-width: 280px;
+    }
+
+    #map{
+        padding-top: 20px;
+        width:280px;
+        height: 280px;
+        float:left;
+    }
+
+    form input, textarea{
+        min-width: 280px;
+    }
+}
+
+

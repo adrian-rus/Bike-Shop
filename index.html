@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+
+
+    <title>Welcome to our Bike Shop!</title>
+</head>
+<body>
+<!--main container-->
+    <div class="container">
+<!--navigation bar-->
+        <nav id="top">
+            <a href="index.html"> <img src="images/logo.png" class="logo" alt="logo"></a>
+            <ul>
+                <li class="dropdown"><a href="store.html" class="dropbtn">Online Store</a>
+                    <div class="dropdown-content">
+                        <a href="store.html#bikes">Bikes</a>
+                        <a href="store.html">Clothing</a>
+                        <a href="store.html">Accessories</a>
+                    </div>
+                </li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="bikesafety.html">Bike Safety</a> </li>
+                <li><a href="about.html">About Us</a></li>
+                <li id="log"><a href="#">Log in</a> </li>
+            </ul>
+            <div id="login">
+                <form name="loginForm">
+                    <input type="email" name="email" placeholder="Email:" required>
+                    <input type="password" name="password" placeholder="Password:" required>
+                    <button  class="button" id="loginbtn">Log in</button>
+                </form>
+            </div>
+        </nav>
+
+<!--slider container-->
+        <div class="slideshow-container">
+                  <div class="mySlides fade">
+
+                    <img src="images/slide1.jpg" alt="bikes" style="width:100%">
+                    <div class="text">
+                        <p>Have a look through our newest bikes!</p>
+                        <a href="store.html" class="button">Click here!</a>
+                    </div>
+                  </div>
+
+                  <div class="mySlides fade">
+
+                    <img src="images/slide2.jpg" alt="safety" style="width:100%">
+                    <div class="text">
+                        <p>Scroll through all our safety accessories!</p>
+                        <a href="store.html" class="button">Click here!</a>
+                    </div>
+
+                  </div>
+
+                  <div class="mySlides fade">
+
+                    <img src="images/slide3.jpg" alt="clothing" style="width:100%">
+                    <div class="text">
+                        <p>Find the right clothing for every environment!</p>
+                        <a href="store.html" class="button">Click here!</a>
+                    </div>
+                  </div>
+
+            </div>
+
+<!--popular products container-->
+        <div class="products">
+
+                <div class="product">
+                   <div>
+                       <h2> Bikes </h2>
+                       <a href="store.html"> <img src="images/bike.jpeg" alt="bike1"></a>
+                       <button id="button1" class="button">Find more!</button>
+                    </div>
+                    <div class="content1">
+                           <h4> The Synapse 2017</h4>
+                           <p>
+                            The Synapse is the perfect balance of raw power and all-day ridability.</p>
+                            <p>Its race-proven combination of endurance geometry, light weight and road-smoothing
+                            comfort has won it everything from Spring Classics to Bike of the Year accolades.</p>
+                            <p>It might just be the best all-around road bike we've ever made.
+                            The perfect balance of race-day performance and all-day ridability
+                           </p>
+                    </div>
+                </div>
+
+                <div class="product">
+
+                   <div>
+                       <h2>Clothing</h2>
+                       <a href="store.html"> <img src="images/clothing.jpg" alt="vest"></a>
+                       <button id="button2" class="button">Find more!</button>
+                    </div>
+
+                    <div class="content2">
+                        <h4> New Fashion Lines 2017</h4>
+                        <p>
+                            AirJack 851 is the perfect jacket for cold Fall or Winter days. It features our exclusive,
+                            ASSOS Airblock 851 fabric, a 3-layer, laminated, windproof textile, with an internal 3D air
+                            channel structure, for optimal moisture wicking. </p>
+
+                        <ul>
+                            <li>AEPD II</li>
+                            <li>high collar with button closure</li>
+                            <li>full front zipper</li>
+                            <li>strategic wind protection inserts</li>
+                            <li>double layer wrist band</li>
+                            <li>4 rear pockets</li>
+                            <li>zippered safety pocket</li>
+                            <li>ASSOS elastic hem at the back reflective visibility stripes</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product">
+
+                   <div>
+                       <h2> Accesories</h2>
+                        <a href="store.html"> <img src="images/chainwheel.jpg" alt="chain wheel"></a>
+                        <button id="button3" class="button">Find more!</button>
+                   </div>
+                    <div class="content3">
+                        <h4> Best accessories</h4>
+                        <p>CNC Machined Polycarbonate Bashguard.</p>
+                        <p>This chain device is made from polycarbonate.</p>
+                        <ul>
+                            <li>Will Fit cranks 104 BCD (Most shimano MTB cranks) </li>
+                            <li>Super Strong and Thick (13mm).</li>
+                            <li>Suitable for CNC machined 32T and 38T versions.</li>
+                            <li>Contact us if you not sure if it will fit your crank.</li>
+
+                        </ul>
+                    </div>
+                </div>
+        </div>
+
+<!-- brands container-->
+        <div class="products">
+
+            <div class="brands">
+                <div>
+                    <img src="images/trek.png" alt="trek">
+                </div>
+                <div class="info">
+                    <p><strong>Trek Bicycle Corporation</strong> is a major bicycle and cycling product manufacturer and distributor
+                        under brand names Trek, Electra Bicycle Company, Gary Fisher, Bontrager, Diamant Bikes,
+                        Villiger Bikes and until 2008, LeMond Racing Cycles and Klein.</p>
+                </div>
+            </div>
+            <div class="brands">
+                <div>
+                    <img src="images/carrera.png" alt="carrera">
+                </div>
+
+                <div class="info">
+                    <p><strong>Carrera Podium</strong> was established in 1956 by the ex pro rider Davide Boifava, Luciano Bracchi.
+                        It was founded as a result of experiences gained in professional cycling races by the
+                        three partners.</p>
+                </div>
+            </div>
+
+            <div class="brands">
+                <div>
+                    <img src="images/giant.png" alt="giant">
+                </div>
+                <div class="info">
+                    <p><strong>Giant</strong> started in August 2002 at the EP Mooney Retail Centre on the Longmile
+                        Road in Dublin, Giant's first brand store in the Republic of Ireland. Managed by Irish
+                        cycling legend Richie Byrne it's the cycling destination for on road, off road and everything
+                        in between.</p>
+                </div>
+
+            </div>
+            <div class="brands">
+                <div>
+                    <img src="images/viking.png" alt="viking">
+                </div>
+                <div class="info">
+                    <p><strong>Viking Bikes</strong> have always embraced the needs and aspirations of its riders since the brand was
+                        launched in 1908. Today, Viking offers a range that fits all rider’s needs, from the
+                        traditional road bike through to modern electric bikes.</p>
+                </div>
+
+            </div>
+        </div>
+<!--footer-->
+        <footer>
+            <div>
+                <ul>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="bikesafety.html">Bike Safety</a> </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="store.html">Online store</a></li>
+                    <li><a href="store.html">Bikes</a></li>
+                    <li><a href="store.html">Clothing</a> </li>
+                    <li><a href="store.html">Accessories</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <form name="newsletterForm">
+                    <label>Sign up for our newsletter:</label>
+                    <input type="email" placeholder="Enter your Email address!" required>
+                    <button class="button" id="signup">Sign up!</button>
+                </form>
+            </div>
+
+            <div>
+                <p><strong>IFSC Square<br>Mayor Street Lower<br>Dublin 1<br>01 234 5678</strong></p>
+                <a href="http://www.facebook.com"><img src="images/facebook.png" class="social" alt="Facebook"></a>
+                <a href="http://www.twitter.com"><img src="images/twitter.png" class="social" alt="Twitter"></a>
+                <a href="http://www.linkedin.com"><img src="images/linkedin.png" class="social" alt="LinkedIn"></a>
+            </div>
+
+        </footer>
+
+        <!--chat div -->
+        <div id="chatwindow">
+            <a href="skype:the_bike_peddlres?chat"><p>Chat now!</p></a>
+        </div>
+
+    </div>
+ <script src="js/slider.js"></script>
+</body>
+</html>

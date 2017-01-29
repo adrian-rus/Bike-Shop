@@ -1,0 +1,48 @@
+/* Slider CSS  - Adrian Rus */
+
+.mySlides{
+    display: none;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 940px;
+  position: relative;
+  margin: auto;
+}
+/* Caption text */
+.text{
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0;
+    min-width:100%;
+    background-color: black;
+    display: block;
+}
+
+.text a{
+    background-color: #37aa22;
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/store.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+
+    <script src="js/main.js"></script>
+    <title>Online Store</title>
+</head>
+<body>
+
+<!--main container-->
+    <div class="container">
+
+<!--navigation bar-->
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" class="logo" alt="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li class="dropdown"><a href="store.html" class="dropbtn">Online Store</a>
+                    <!--<div class="dropdown-content">
+                        <a href="store.html">Bikes</a>
+                        <a href="store.html">Clothing</a>
+                        <a href="store.html">Accessories</a>
+                    </div>-->
+                </li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="bikesafety.html">Bike Safety</a> </li>
+                <li><a href="about.html">About Us</a></li>
+
+                <li id="log"><a href="#">Log in</a> </li>
+
+            </ul>
+            <div id="login">
+                <form name="loginForm">
+                    <input type="email" name="email" placeholder="Email:" required>
+                    <input type="password" name="password" placeholder="Password:" required>
+                    <button class="button" id="loginbtn">Log in</button>
+                </form>
+            </div>
+            <ul class="store">
+                    <li><a href="#bikes">Bikes</a></li>
+                    <li class="dropdown"><a href="#clothing" class="">Clothing</a>
+                        <div class="dropdown-content">
+                        <a href="store.html">Upper Body</a>
+                        <a href="store.html">Lower Body</a>
+                        <a href="store.html">Essentials</a>
+                        </div>
+                    </li>
+                    <li class="dropdown"><a href="#accessories">Accesories</a>
+                        <div class="dropdown-content">
+                        <a href="#accessories">Helmets</a>
+                        <a href="store.html">Lights</a>
+                        <a href="store.html">High Vis</a>
+                        </div>
+                    </li>
+                </ul>
+        </nav>
+
+<!-- Bikes section-->
+        <section class="products">
+
+            <h1> Popular Bikes</h1>
+
+            <div class="product" id="bikes">
+
+                   <div>
+                       <h2> Giant Synapse 2017 </h2>
+                       <img src="images/bike.jpeg" alt="bike1">
+                       <button id="myBtn" class="button">Find more!</button>
+                   </div>
+                <div id="myModal" class="modal">
+            <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h3>The Synapse 2017</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="img">
+                            <img src="images/bike.jpeg" alt="Synapse 2017">
+                            </div>
+                            <div>
+                                <p>The Synapse is the perfect balance of raw power and all-day ridability.</p>
+                                <p>It might just be the best all-around road bike we've ever made.
+                                    The perfect balance of race-day performance and all-day ridability</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>&euro;750</h3>
+                            <h3>Add to cart!</h3>
+                            <button class="button">&plus;</button>
+                            <button class="button">&minus;</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                   <div>
+                       <h2> Trek Tiagra </h2>
+                       <img src="images/bike4.jpg" alt="bike4">
+                       <button id="myBtn1" class="button">Find more!</button>
+                   </div>
+                <div id="myModal1" class="modal">
+            <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h3>The Tiagra</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="img">
+                            <img src="images/bike4.jpg" alt="Tiagra">
+                            </div>
+                            <div>
+                                <p>Lightweight and responsive with a great range of gears, the 2016 Tiagra
+                                    0.3 is the perfect entry level road bike. The smooth welded alloy frame looks
+                                    as sleek as any carbon bike, at a fraction of the cost.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>&euro;790</h3>
+                            <h3>Add to cart!</h3>
+                            <button class="button">&plus;</button>
+                            <button class="button">&minus;</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                   <div>
+                       <h2> Viking Ridley </h2>
+                        <img src="images/bike6.jpg" alt="bike6">
+                       <button id="myBtn2" class="button">Find more!</button>
+                   </div>
+                <div id="myModal2" class="modal">
+            <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h3>The Ridley</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="img">
+                            <img src="images/bike6.jpg" alt="Tiagra">
+                            </div>
+                            <div>
+                                <p>From first road rides to all-day adventures to fender-equipped commutes,
+                                    the alloy Viking Ridley will be your perfect partner.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>&euro;680</h3>
+                            <h3>Add to cart!</h3>
+                            <button class="button">&plus;</button>
+                            <button class="button">&minus;</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Clothing Section-->
+        <section class="products">
+            <h1> Clothing </h1>
+                <div class="product" id="clothing">
+
+                   <div>
+                       <h2>Air Jack 851</h2>
+                       <img src="images/clothing.jpg" alt="vest">
+                       <button id="myBtn3" class="button">Find more!</button>
+                    </div>
+
+                    <div class="modal" id="myModal3">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h4> Air Jack 851 </h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="img">
+                                    <img src="images/clothing.jpg" alt="vest">
+                                </div>
+                        <p>
+                            AirJack 851 is the perfect jacket for cold Fall or Winter days. It features our exclusive,
+                            ASSOS Airblock 851 fabric, a 3-layer, laminated, windproof textile, with an internal 3D air
+                            channel structure, for optimal moisture wicking. </p>
+
+                        <ul>
+                            <li>AEPD II</li>
+                            <li>high collar with button closure</li>
+                            <li>full front zipper</li>
+                            <li>strategic wind protection inserts</li>
+                            <li>double layer wrist band</li>
+                            <li>4 rear pockets</li>
+                            <li>zippered safety pocket</li>
+                            <li>ASSOS elastic hem at the back reflective visibility stripes</li>
+                        </ul>
+                            </div>
+                            <div class="modal-footer">
+                            <h3>&euro;165</h3>
+                            <h3>Add to cart!</h3>
+                            <button class="button">&plus;</button>
+                            <button class="button">&minus;</button>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                   <div>
+                       <h2> O'Neal Casey Jacket </h2>
+                        <img src="images/top1.jpg" alt="top1">
+                       <button id="myBtn4" class="button">Find more!</button>
+                   </div>
+                <div id="myModal4" class="modal">
+            <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h3>O'Neal Casey Jacket</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="img">
+                            <img src="images/top1.jpg" alt="O'Neal">
+                            </div>
+                            <div>
+                                <p>O'Neal Casey Wind Jacket is a lightweight full zip cycling jacket featuring TransTextura™
+                                    mesh back panels and ProTextura™ windproof fabric on front and side panels for
+                                    temperature management.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>&euro;210</h3>
+                            <h3>Add to cart!</h3>
+                            <button class="button">&plus;</button>
+                            <button class="button">&minus;</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                   <div>
+                       <h2> O'Neal Sketch </h2>
+                       <a href="#"> <img src="images/top2.jpg" alt="top2"></a>
+                       <button id="myBtn5" class="button">Find more!</button>
+                   </div>
+                <div id="myModal5" class="modal">
+            <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h3>O'Neal Sketch</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="img">
+                            <img src="images/top2.jpg" alt="O'Neal Sketch">
+                            </div>
+                            <div>
+                                <p>Optimal moisture transfer with minimum weight.</p>
+                                <ul>
+                                    <li>Quick drying</li>
+                                    <li>Minimal thickness</li>
+                                    <li>High breathability</li>
+                                    <li>Anti-bacterial effect</li>
+                                    <li>Flatlock seams</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>&euro;160</h3>
+                            <h3>Add to cart!</h3>
+                            <button class="button">&plus;</button>
+                            <button class="button">&minus;</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Accessories section -->
+        <section class="products">
+            <h1> Accessories and Safety</h1>
+            <div class="product" id="accessories">
+                   <div>
+                       <h2> Giant Horizon Helmet </h2>
+                       <a href="#"> <img src="images/helmet.jpg" alt="helmet"></a>
+                       <button id="myBtn6" class="button">Find more!</button>
+                   </div>
+                <div id="myModal6" class="modal">
+            <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h3>Giant Horizon Helmet</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="img">
+                            <img src="images/helmet.jpg" alt="Horizon Helmet">
+                            </div>
+                            <div>
+                                <p>Stylish and feature packed - the new Horizon helmet delivers versatility and comfort.</p>
+                                <p>With 18 cooling ventilation ports, an infinitely adjustable Cinch 5™ full-ring fit
+                                    system with LED light and a removable visor </p>
+                                <p>This helmet is equipped to keep you safe in a range of conditions.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>&euro;60</h3>
+                            <h3>Add to cart!</h3>
+                            <button class="button">&plus;</button>
+                            <button class="button">&minus;</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                   <div>
+                       <h2> Garmin Smart Lights </h2>
+                       <a href="#"> <img src="images/lights.jpg" alt="lights"></a>
+                       <button id="myBtn7" class="button">Find more!</button>
+                   </div>
+                <div id="myModal7" class="modal">
+            <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h3>Garmin Smart Bike Lights</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="img">
+                            <img src="images/lights.jpg" alt="O'Neal Sketch">
+                            </div>
+                            <div>
+                                <h4>our Lights Need To Be Smarter, Not Brighter</h4>
+                                <p>Works independently and seamlessly integrates with compatible Edge® cycling computers</p>
+                                <p>As rider’s speed increases, the headlight automatically projects further ahead
+                                    or closer as a rider’s speed decreases when paired with select Edge computers</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>&euro;180</h3>
+                            <h3>Add to cart!</h3>
+                            <button class="button">&plus;</button>
+                            <button class="button">&minus;</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                   <div>
+                       <h2> High Visibility Vest </h2>
+                       <a href="#"> <img src="images/hivis.jpg" alt="High Vis"></a>
+                       <button id="myBtn8" class="button">Find more!</button>
+                   </div>
+                <div id="myModal8" class="modal">
+            <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h3>Hi Vis Vest</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="img">
+                            <img src="images/hivis.jpg" alt="High Vis">
+                            </div>
+                            <div>
+                                <p>The Oxford High Visability Active Bright Vest is a 3M reflective compression-fit vest.</p>
+                                <p>Lightweight and comfortable Compression fit Breathable lining Full frontal zip Highly reflective</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>&euro;40</h3>
+                            <h3>Add to cart!</h3>
+                            <button class="button">&plus;</button>
+                            <button class="button">&minus;</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ <!--footer-->
+        <footer>
+            <div>
+                <ul>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="bikesafety.html">Bike Safety</a> </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="store.html">Online store</a></li>
+                    <li><a href="store.html">Bikes</a></li>
+                    <li><a href="store.html">Clothing</a> </li>
+                    <li><a href="store.html">Accessories</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <form name="newsletterForm">
+                    <label>Sign up for our newsletter:</label>
+                    <input type="email" placeholder="Enter your Email address!" required>
+                    <button class="button" id="signup">Sign up!</button>
+                </form>
+            </div>
+
+            <div>
+                <p><strong>IFSC Square<br>Mayor Street Lower<br>Dublin 1<br>01 234 5678</strong></p>
+                <a href="http://www.facebook.com"><img src="images/facebook.png" class="social" alt="Facebook"></a>
+                <a href="http://www.twitter.com"><img src="images/twitter.png" class="social" alt="Twitter"></a>
+                <a href="http://www.linkedin.com"><img src="images/linkedin.png" class="social" alt="LinkedIn"></a>
+            </div>
+
+        </footer>
+        <!--chat div -->
+        <div id="chatwindow">
+            <a href="skype:the_bike_peddlres?chat"><p>Chat now!</p></a>
+        </div>
+    </div>
+
+<script src="js/store.js"></script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto','Modern No. 20', 'Arial Narrow', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 940px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    font-size:18px;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover, .dropbtn{
+    background-color: #37aa22;
+}
+
+nav li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #37aa22;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 5;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: #2c6c1e;
+
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.logo{
+    max-width: 200px;
+    max-height:120px;
+}
+
+#log{
+    float: right;
+}
+
+#login{
+    padding: 15px;
+    display: none;
+    background-color: darkgray;
+}
+
+#loginbtn, #signup{
+    padding: 5px;
+    background-color: #37aa22;
+    border: none;
+    color: white;
+}
+.top img{
+    width: 940px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* Products container styling */
+
+.products{
+    margin-bottom: 20px;
+    float: left;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.product{
+    display: inline-block;
+    margin: 15px;
+    max-width: 260px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product h2{
+    padding: 10px;
+    background-color: #37aa22;
+    color: white;
+    margin: 0;
+}
+
+.product img{
+    margin: 0 auto;
+    max-width: 250px;
+    min-height: 250px;
+}
+
+.content1, .content2, .content3{
+    display: none;
+    text-align: justify;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+/* Brands container styling */
+.brands{
+    max-width:100%;
+    display: inline-block;
+    float: left;
+    padding: 20px;
+}
+
+
+.brands img{
+    max-height: 40px;
+    max-width: 180px;
+    margin-bottom: 25px;
+}
+
+.info{
+    text-align: left;
+    float: left;
+    max-width: 180px;
+    color: #232323;
+    font-size: 14px;
+}
+
+/*-----------------------*/
+
+/* Footer Styling*/
+
+footer{
+    clear: both;
+    text-align: center;
+    border-top: 1px solid darkgray;
+    min-width: 100%;
+    font-size: 12px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer div{
+    display: inline-block;
+    margin: 10px;
+    max-width: 350px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #37aa22;
+}
+
+.social{
+    height: 30px;
+    max-width: 30px;
+    margin: 5px;
+}
+/*--------------------*/
+
+.button{
+    color: white;
+    background-color:#37aa22;
+    border:none;
+    padding: 15px;
+    margin: 10px;
+    font-size:15px;
+}
+
+
+#chatwindow{
+    min-width: 40px;
+    min-height: 40px;
+    background-color: #8fff74;
+    position: fixed;
+    top:20px;
+    right:20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#chatwindow a{
+    text-decoration: none;
+    color: white;
+}
+
+#chatwindow:hover{
+    background-color: #2c6c1e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input, textarea, select{
+    min-width: 300px;
+    font-family: 'Roboto',sans-serif;
+    border: 1px solid #37aa22;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="servicing"] {
+        width: 100%;
+}
+    input, textarea{
+        max-width: 250px;
+}
+    #chatwindow{
+        top:5px;
+        right: 5px;
+}
+    footer div{
+        min-width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    footer ul{
+        padding-left: 0;
+    }
+}
